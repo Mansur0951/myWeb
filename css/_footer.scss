@@ -1,0 +1,32 @@
+.footer {
+  &__top {
+    padding-top: 26px;
+    padding-bottom: 28px;
+    background-color: #2E2B44;
+  }
+
+  &-list {
+    @include df-center;
+    justify-content: center;
+
+    &__item {
+      &:not(:last-child) {
+        margin-right: var(--gap);
+      }
+    }
+  }
+
+  &__bottom {
+    @include df-center;
+    justify-content: center;
+    font-size: 13px;
+    padding-top: 3px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #2E2B44;
+
+    span {
+      color: var(--main-color);
+    }
+  }
+}

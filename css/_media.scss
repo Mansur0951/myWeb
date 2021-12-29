@@ -1,0 +1,124 @@
+@media (max-width: 1175px) {
+  .hero {
+    background: url(../img/tablet/hero-tablet-bg.png) no-repeat calc(100% - 136px) center, radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+  }
+}
+
+@media(max-width: 992px) {
+  .advantage-1 {
+    flex-direction: column;
+    align-items: flex-start;
+
+    svg {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+
+    .advantage {
+      margin-bottom: 91;
+    }
+  }
+
+  .hero {
+    background: url(../img/tablet/hero-tablet-bg.png) no-repeat calc(100% - 46px) calc(100% - 145px), radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+    padding-bottom: 136px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .container, .container-sm {
+      max-width: 100%;
+  }
+
+  .hero {
+
+    &-title {
+      margin-bottom: 14px;
+    }
+  }
+
+  .courses-block__item {
+    height: 100%;
+  }
+
+  .courses-block__content  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 556px;
+  }
+
+  .intro-block__image-left {
+    object-fit: contain;
+  }
+
+  .hero-title {
+    font-size: 50px;
+  }
+
+  .teachers {
+   padding-top: 89px;
+   padding-bottom: 80px;
+  }
+
+  .courses-block__content picture {
+    width: 100%;
+  }
+
+  .courses__image {
+    margin-bottom: 0;
+  }
+}
+
+@media(max-width: 644px) {
+  .header__container {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: var(--gap);
+  }
+}
+
+@media (max-width: 576px) {
+  .advantage-1 {
+    flex-direction: row;
+
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+
+  .teachers__item {
+    align-items: center;
+
+    &:nth-child(-n+2) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .intro-block__image-left {
+    display: none;
+  }
+
+  .hero {
+    background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);;
+  }
+}
+
+
+@media(max-width: 474px) {
+  .nav {
+    display: none;
+  }
+
+  .header__container {
+    flex-direction: unset;
+  }
+
+  .logo {
+    margin: 0;
+  }
+}
