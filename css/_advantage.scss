@@ -1,0 +1,48 @@
+.advantage {
+  background-color: #fff;
+  padding-top: 81px;
+  padding-bottom: 77px;
+
+  &-descr {
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    margin: 0;
+  }
+
+  &-title {
+    margin-bottom: 15px;
+  }
+
+  &-counts__descr {
+    font-size: 16px;
+    line-height: 120%;
+    color: #666666;
+    margin-bottom: 0;
+  }
+
+  &-counts {
+    // transform: translateY(-40px);
+  }
+}
+
+
+.advantage-1 {
+  display: flex;
+  align-items: center;
+
+  svg {
+    display: block;
+    width: 100%;
+    margin-right: 29px;
+    max-width: 80px;
+  }
+}
+
+.intro-block__image {
+  margin-bottom: 25px;
+}
+
+.advantage-bblock__right {
+  padding: 0;
+}
